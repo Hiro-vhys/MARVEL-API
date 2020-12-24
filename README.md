@@ -1,14 +1,15 @@
 # MARVEL-API
-## Re-implement the Marvel Api endpoints so that it can be accessed even when offline.
 
 <p>
- <a href="#objetivo">objective</a> •
- <a href="#how to use">how to use</a> •
- <a href="#tecnologias">Technology</a> •
- <a href="#autor">Author</a>
+ <a href="## Re-implement the Marvel Api endpoints so that it can be accessed even when offline.">objective</a> •
+ <a href="## How to use:">how to use</a> •
+ <a href="## Tools used:">Technology</a> •
+ <a href="## Author:">Author</a>
 </p>
 
-## Endpoints implemented:
+## Re-implement the Marvel Api endpoints so that it can be accessed even when offline.
+
+### Endpoints implemented:
 - `/v1/public/characters`
 - `/v1/public/characters/<characterId>`
 - `/v1/public/characters/<characterId>/comics`
@@ -16,6 +17,7 @@
 - `/v1/public/characters/<characterId>/series`
 - `/v1/public/characters/<characterId>/stories`
 
+## How to use:
 ### Prerequisites:
 
 Before you begin, you will need to have the following tools installed on your machine:
@@ -35,7 +37,7 @@ $ FLASK_APP=main.py flask run
 
 ### The server will start at port: 5000 - go to <http://127.0.0.1:5000>
 
-### Tools used:
+## Tools used:
 - Operational system: Ubuntu
 - IDE: PyCharm
 - Microframework:
@@ -43,7 +45,7 @@ $ FLASK_APP=main.py flask run
 - Language:
     - Python
 
-### Author:
+## Author:
 Victor Hiroshi  
 May the force be with us 👋🏽 
 [![Linkedin Badge](https://img.shields.io/badge/-Victor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/victor-santos-009086178/)](https://www.linkedin.com/in/victor-santos-009086178/) 
