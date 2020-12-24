@@ -1,12 +1,5 @@
 # MARVEL-API
 
-<p>
- <a href="## Re-implement the Marvel Api endpoints so that it can be accessed even when offline.">objective</a> •
- <a href="## How to use:">how to use</a> •
- <a href="## Tools used:">Technology</a> •
- <a href="## Author:">Author</a>
-</p>
-
 ## Re-implement the Marvel Api endpoints so that it can be accessed even when offline.
 
 ### Endpoints implemented:
