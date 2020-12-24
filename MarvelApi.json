@@ -1,0 +1,166 @@
+  [
+    {
+      "characterId": "1",
+      "name": "Scarlet Witch",
+      "age": 29,
+      "secretIdentity": "Wanda Maximoff",
+      "powers": [
+        "Phychic Defenses",
+        "Telekinesis",
+        "Chaos Magic",
+        "Resurrection",
+        "No More Powers"
+      ],
+      "comics": [
+        "Avengers Origins: Scarlet Witch & Quicksilver(2011) #1",
+        "Uncanny X-men (1963) #4",
+        "Avengers (1963) #16",
+        "Scarlet Witch (2015)",
+        "Avengers Disassembled"
+      ],
+      "events": [
+        "House of M",
+        "Marvel Strike Force"
+      ],
+      "series": [
+        "X-Men: Evolution",
+        "Wolverine and the X-Men",
+        "Iron Man",
+        "The avengers: United They Stand"
+      ],
+      "stories": [
+        "The Vison & The Scarlet Witch",
+        "The Witch of Wundagore Mountain"
+      ]
+    },
+    {
+      "characterId": "2",
+      "name": "Captain America",
+      "age": 109,
+      "secretIdentity": "Steve Rogers",
+      "powers": [
+        "Slowed Aging Process",
+        "Vibranium Shield",
+        "Super-Soldier Serum",
+        "Leader & Strategist"
+      ],
+      "comics": [
+        "Captain America (2004) #1",
+        "Captain America (2004) #46",
+        "Captain America (2004) #616"
+      ],
+      "events": [
+        "2011: He & Bucky's Origins Are Revealed Once Again",
+        "2018: Reunites With The Old Avengers & More",
+        "2019: He Retires"
+      ],
+      "series": [
+        "Captain America",
+        "Agent Carter",
+        "Captain America & Thor: Avengers"
+      ],
+      "stories": [
+        "The Winter Soldier",
+        "The death of Captain America",
+        "Operation Rebirth",
+        "Man Out of Time"
+      ]
+    },
+    {
+      "characterId": "3",
+      "name": "Thor",
+      "age": 5000,
+      "secretIdentity": "Thor Odinson",
+      "powers": [
+        "Mjolnir",
+        "Superhuman Strength",
+        "Hand-To-Hand Combat"
+      ],
+      "comics": [
+        "Journey Into Mystery (1952) #83",
+        "The Mighty Thor (2011) #1",
+        "Thor: God of Thunder (2012) #1"
+      ],
+      "events": [
+        "Thor: Ragnarok",
+        "Onslaught"
+      ],
+      "series": [
+        "King Thor",
+        "Thor: Son of Asgard",
+        "Thor: The Mighty Avenger"
+      ],
+      "stories": [
+        "The Surtur Saga",
+        "Skurge's Last Stand",
+        "The Ballad of Beta Ray Bill",
+        "Mjolnir's Song"
+      ]
+    },
+    {
+      "characterId": "4",
+      "name": "Iron Man",
+      "age": 42,
+      "secretIdentity": "Tony Stark",
+      "powers": [
+        "360 Vision",
+        "Energy Blast",
+        "Repulsor Rays",
+        "Extremis",
+        "Collection of Armor"
+      ],
+      "comics": [
+        "Iron Man (1968) #200",
+        "Iron Man (1968) #282",
+        "Iron Man (1968) #305"
+      ],
+      "events": [
+        "Iron Age",
+        "Ironheart",
+        "Force Works"
+      ],
+      "series": [
+        "Iron Man Armored Adventures",
+        "Avengers Assumble",
+        "The super Hero Squad"
+      ],
+      "stories": [
+        "Armor Wars",
+        "Wolrd's Most Wanted",
+        "Doomquest",
+        "Iron Monger Saga"
+      ]
+    },
+    {
+      "characterId": "5",
+      "name": "Spider Man",
+      "age": 16,
+      "secretIdentity": "Peter Parker",
+      "powers": [
+        "Webcrawler & Superhuman Strength",
+        "Spider-Sense",
+        "Web-shooter"
+      ],
+      "comics": [
+        "The Amazing Spider-Man (2015) #1",
+        "Superior Spider-Man (2013) #1",
+        "Amazing Spider-Man: Renew Your Vows (2015) #1"
+      ],
+      "events": [
+        "Green Goblin Reborn",
+        "Doc Ock Wins",
+        "Secret Wars"
+      ],
+      "series": [
+        "Spider-Man and His Amazing Friends",
+        "The Spectacular Spider-Man",
+        "Spider-Man: The New Animated Seires"
+      ],
+      "stories": [
+        "The Master Planner Saga",
+        "Kraven's Last Hunt",
+        "The Night Gwen Stacy Died",
+        "Spider-Man: Blue"
+      ]
+    }
+  ]
