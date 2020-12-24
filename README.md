@@ -14,12 +14,12 @@
 ### Prerequisites:
 
 Before you begin, you will need to have the following tools installed on your machine:
-[Python3.9](https://www.python.org/), Flask, pip.
+[Python3.8](https://www.python.org/), Flask, pip.
 In addition, it is good to have an editor/IDE to work with the code like [VSCode](https://code.visualstudio.com/) and [PyCharm](https://www.jetbrains.com/pt-br/pycharm/download/#section=linux) 
 
 ### Install the dependencies:
 * Installing pip for Python 3  `$ sudo apt install python3-pip`
-* Installing Python            `$ sudo apt install python3.8`
+* Installing Python 3          `$ sudo apt install python3.8`
 * Installing Flask             `$ sudo pip install Flask`
 
 ### Clone this repository:
