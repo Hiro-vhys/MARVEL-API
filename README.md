@@ -28,7 +28,7 @@ $ git clone <https://github.com/Hiro-vhys/MARVEL-API.git>
 ### Run the application:
 $ FLASK_APP=main.py flask run
 
-### The server will start at port: 5000 - go to <http://127.0.0.1:5000>
+### The server will start at port: 5000 - go to <http://127.0.0.1:5000/>
 
 ## Tools used:
 - Operational system: Ubuntu
