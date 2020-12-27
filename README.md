@@ -10,7 +10,6 @@
 - `/v1/public/characters/<characterId>/series`
 - `/v1/public/characters/<characterId>/stories`
 
-## How to use:
 ### Prerequisites:
 
 Before you begin, you will need to have the following tools installed on your machine:
