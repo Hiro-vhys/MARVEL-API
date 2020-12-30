@@ -11,7 +11,7 @@ input_dict = json.loads(input_json)
 
 
 @app.route('/', methods=['GET'])
-def defaultRoute():
+def default_route():
     index = '<h1>Endpoints disponiveis</h1><br>'
     index += '<p>character_id 1, 2, 3, 4 or 5</p>'
     index += '<p>/v1/public/characters</p>'
@@ -23,14 +23,14 @@ def defaultRoute():
     return index
 
 
-def errorHandling(character_id):
+def error_handling(character_id):
     if character_id.isdecimal() and 0 < int(character_id) < 6:
         return True
     else:
         return False
 
 
-def searchOnJson(character_id, url_complement=None):
+def search_on_json(character_id, url_complement=None):
     for element in input_dict:
         if element["characterId"] == character_id:
             if url_complement is None:
@@ -41,14 +41,14 @@ def searchOnJson(character_id, url_complement=None):
 
 
 @app.route('/v1/public/characters', methods=['GET'])
-def getAllCharacters():
+def get_all_characters():
     return jsonify(input_dict)
 
 
 @app.route('/v1/public/characters/<character_id>', methods=['GET'])
-def getCharacterById(character_id):
-    if errorHandling(character_id):
-        output_json = searchOnJson(character_id)
+def get_character_by_id(character_id):
+    if error_handling(character_id):
+        output_json = search_on_json(character_id)
         return jsonify(output_json)
     else:
         return '<p>Enter a number between 1 and 5</p>'
@@ -56,36 +56,36 @@ def getCharacterById(character_id):
 
 
 @app.route('/v1/public/characters/<character_id>/comics', methods=['GET'])
-def getComicsBycharacter_id(character_id):
-    if errorHandling(character_id):
-        output_json = searchOnJson(character_id, "comics")
+def get_comics_by_character_id(character_id):
+    if error_handling(character_id):
+        output_json = search_on_json(character_id, "comics")
         return jsonify(output_json)
     else:
         return '<p>Enter a number between 1 and 5</p>'
 
 
 @app.route('/v1/public/characters/<character_id>/events', methods=['GET'])
-def getEventsBycharacter_id(character_id):
-    if errorHandling(character_id):
-        output_json = searchOnJson(character_id, "events")
+def get_events_by_character_id(character_id):
+    if error_handling(character_id):
+        output_json = search_on_json(character_id, "events")
         return jsonify(output_json)
     else:
         return '<p>Enter a number between 1 and 5</p>'
 
 
 @app.route('/v1/public/characters/<character_id>/series', methods=['GET'])
-def getSeriesBycharacter_id(character_id):
-    if errorHandling(character_id):
-        output_json = searchOnJson(character_id, "series")
+def get_series_by_character_id(character_id):
+    if error_handling(character_id):
+        output_json = search_on_json(character_id, "series")
         return jsonify(output_json)
     else:
         return '<p>Enter a number between 1 and 5</p>'
 
 
 @app.route('/v1/public/characters/<character_id>/stories', methods=['GET'])
-def getStoriesBycharacter_id(character_id):
-    if errorHandling(character_id):
-        output_json = searchOnJson(character_id, "stories")
+def get_stories_by_character_id(character_id):
+    if error_handling(character_id):
+        output_json = search_on_json(character_id, "stories")
         return jsonify(output_json)
     else:
         return '<p>Enter a number between 1 and 5</p>'
